@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'SansHeavy';
+    src: url('./Assets/Fonte/FutoSans-Heavy.ttf') format(truetype);
+}
+
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: white;
+}
+
+.fonte{
+    font-family: 'SansHeavy';
+    color: black;
+}
+
+.fonte-contato{
+    font-family: 'SansHeavy';
+    color: black;
+    font-size: 1rem;
+}
+
+.nav-padrao a{
+    font-family: 'SansHeavy';
+    color: black;
+    font-size: 1.4rem;
+}
+
+.subtitulo-padrao {
+    font-family: 'SansHeavy';
+    color: black;
+    font-size: 2.5rem;
+}
+
+.navbar-centralizada{
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+}
+
+.quadro{
+    width: 40rem;
+}
+
+.coluna-esquerda{
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    width: 50%;
+}
+
+.coluna-direita{
+    display: flex;
+    text-align: end;
+    flex-direction: column;
+    width: 50%;
+}
+
+.fonte-planos{
+    font-size: 1.5rem;
+    font-family: "SansHeavy";
+    color: white;
+}
+
+.fonte-planos-subtitulo{
+    font-size: 1.7rem;
+    font-family: "SansHeavy";
+    color: white;
+}
+
+.somenteUmaAtividade{
+    background-color: rgba(1, 43, 127, 1);
+}
+
+.todasAtividades{
+    background-color:  rgba(201, 18, 38, 1);
+}
+
+.maps{
+    height: 400px;
+}
+
+.contato-container{
+    height: 600px;
+}
+
+.footer{
+    background-color: black;
+    height: 50px;
+}
+
+.fonte-footer{
+    font-size: .6rem;
+    color: white;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-centralizada {
+        justify-content: start;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo-esquerda{
+        padding-right: 62%;
+    }
+}
+
+@media (min-width: 550px){
+    .maps{
+        height: 600px;
+    }
+
+    .fonte-contato{
+        font-size: 1.5rem;
+    }
+
+    .fonte-footer{
+        font-size: .8rem;
+    }
+}
+
+@media (min-width: 990px){
+    .fonte-contato{
+        font-size: 2rem;
+    }
+
+    .fonte-footer{
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
