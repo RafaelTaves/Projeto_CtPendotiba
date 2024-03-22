@@ -3,7 +3,7 @@
     src: url('./Assets/Fonte/FutoSans-Heavy.ttf') format(truetype);
 }
 
-body{
+main{
     overflow-x: hidden;
 }
 
@@ -46,6 +46,12 @@ nav{
 
 .quadro{
     width: 40rem;
+}
+
+.fakeRow{
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
 }
 
 .coluna-esquerda{
